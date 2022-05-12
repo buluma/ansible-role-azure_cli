@@ -1,0 +1,12 @@
+---
+- name: prepare
+  hosts: all
+  become: yes
+  gather_facts: no
+
+  roles:
+    - role: buluma.bootstrap
+    - role: buluma.epel
+    - role: buluma.buildtools
+    - role: buluma.python_pip
+    - role: robertdebock.microsoft_repository_keys
