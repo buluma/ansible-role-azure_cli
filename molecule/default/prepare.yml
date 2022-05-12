@@ -9,4 +9,4 @@
     - role: buluma.epel
     - role: buluma.buildtools
     - role: buluma.python_pip
-    - role: robertdebock.microsoft_repository_keys
+    - role: buluma.microsoft_repository_keys
