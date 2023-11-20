@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-azure_cli/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-azure_cli/compare/0.1.2...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#8](https://github.com/buluma/ansible-role-azure_cli/issues/8)
+- Update action [\#7](https://github.com/buluma/ansible-role-azure_cli/issues/7)
+
 ## [0.1.2](https://github.com/buluma/ansible-role-azure_cli/tree/0.1.2) (2023-05-05)
 
 [Full Changelog](https://github.com/buluma/ansible-role-azure_cli/compare/0.1.1...0.1.2)
