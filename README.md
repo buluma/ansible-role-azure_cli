@@ -1,10 +1,10 @@
-# [azure_cli](#azure_cli)
+# [Ansible role azure_cli](#azure_cli)
 
 Install and configure azure_cli on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-azure_cli/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-azure_cli/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-azure_cli/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-azure_cli)|[![quality](https://img.shields.io/ansible/quality/59165)](https://galaxy.ansible.com/buluma/azure_cli)|[![downloads](https://img.shields.io/ansible/role/d/59165)](https://galaxy.ansible.com/buluma/azure_cli)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-azure_cli/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-azure_cli/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-azure_cli/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-azure_cli)|[![downloads](https://img.shields.io/ansible/role/d/4653)](https://galaxy.ansible.com/buluma/azure_cli)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
