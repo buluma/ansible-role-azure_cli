@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-azure_cli/compare/0.1.2...HEAD)
 
+**Implemented enhancements:**
+
+- Configure Renovate [\#16](https://github.com/buluma/ansible-role-azure_cli/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#11](https://github.com/buluma/ansible-role-azure_cli/issues/11)
