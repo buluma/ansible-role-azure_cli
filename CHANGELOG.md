@@ -16,6 +16,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#20](https://github.com/buluma/ansible-role-azure_cli/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update buluma/dependabot-auto-merge-action action to v2.1.1 [\#18](https://github.com/buluma/ansible-role-azure_cli/pull/18) ([renovate[bot]](https://github.com/apps/renovate))
 - Update buluma/gh-action-auto-merge-dependabot-updates action to v1.0.8 [\#17](https://github.com/buluma/ansible-role-azure_cli/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
 - Bump actions/checkout from 3 to 4 [\#14](https://github.com/buluma/ansible-role-azure_cli/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
