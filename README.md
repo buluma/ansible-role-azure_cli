@@ -1,10 +1,10 @@
-# Ansible role [azure_cli](https://galaxy.ansible.com/ui/standalone/roles/buluma/azure_cli/documentation)
+# [Ansible role azure_cli](#ansible-role-azure_cli)
 
 Install and configure azure_cli on your system.
 
-|GitHub|Version|Issues|Pull Requests|Downloads|
-|------|-------|------|-------------|---------|
-|[![github](https://github.com/buluma/ansible-role-azure_cli/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-azure_cli/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/azure_cli)](https://galaxy.ansible.com/ui/standalone/roles/buluma/azure_cli/documentation)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/buluma/ansible-role-azure_cli/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-azure_cli/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-azure_cli/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-azure_cli)|[![downloads](https://img.shields.io/ansible/role/d/buluma/azure_cli)](https://galaxy.ansible.com/buluma/azure_cli)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-azure_cli.svg)](https://github.com/buluma/ansible-role-azure_cli/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: yes
 
   roles:
-    - role: buluma.azure_cli
+    - role: ansible-role-azure_cli
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-azure_cli/blob/master/molecule/default/prepare.yml):
@@ -49,20 +49,19 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | Version |
+| Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.buildtools](https://galaxy.ansible.com/buluma/buildtools)|[![Ansible Molecule](https://github.com/buluma/ansible-role-buildtools/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-buildtools/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-buildtools.svg)](https://github.com/shadowwalker/ansible-role-buildtools)|
-|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Ansible Molecule](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/shadowwalker/ansible-role-epel)|
-|[buluma.microsoft_repository_keys](https://galaxy.ansible.com/buluma/microsoft_repository_keys)|[![Ansible Molecule](https://github.com/buluma/ansible-role-microsoft_repository_keys/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-microsoft_repository_keys/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-microsoft_repository_keys.svg)](https://github.com/shadowwalker/ansible-role-microsoft_repository_keys)|
-|[buluma.python_pip](https://galaxy.ansible.com/buluma/python_pip)|[![Ansible Molecule](https://github.com/buluma/ansible-role-python_pip/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-python_pip/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-python_pip.svg)](https://github.com/shadowwalker/ansible-role-python_pip)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.buildtools](https://galaxy.ansible.com/buluma/buildtools)|[![Build Status GitHub](https://github.com/buluma/ansible-role-buildtools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-buildtools/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-buildtools/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-buildtools)|
+|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-epel/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-epel)|
+|[buluma.microsoft_repository_keys](https://galaxy.ansible.com/buluma/microsoft_repository_keys)|[![Build Status GitHub](https://github.com/buluma/ansible-role-microsoft_repository_keys/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-microsoft_repository_keys/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-microsoft_repository_keys/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-microsoft_repository_keys)|
+|[buluma.python_pip](https://galaxy.ansible.com/buluma/python_pip)|[![Build Status GitHub](https://github.com/buluma/ansible-role-python_pip/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-python_pip/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-python_pip/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-python_pip)|
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
+This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
-
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-azure_cli/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
@@ -77,22 +76,19 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
 |[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
 
-The minimum version of Ansible required is 2.12, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done on:
 
 - The previous version.
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-azure_cli/issues)
-
-## [Changelog](#changelog)
-
-[Role History](https://github.com/buluma/ansible-role-azure_cli/blob/master/CHANGELOG.md)
+If you find issues, please register them on [GitHub](https://github.com/buluma/ansible-role-azure_cli/issues).
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-azure_cli/blob/master/LICENSE)
+[Apache-2.0](https://github.com/buluma/ansible-role-azure_cli/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
-[Shadow Walker](https://buluma.github.io/)
+[buluma](https://buluma.github.io/)
+
