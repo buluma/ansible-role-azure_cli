@@ -13,8 +13,8 @@
     name: AzureCLI
     description: Azure CLI
     baseurl: "https://packages.microsoft.com/yumrepos/azure-cli"
-    enabled: yes
-    gpgcheck: yes
+    enabled: true
+    gpgcheck: true
     gpgkey: "https://packages.microsoft.com/keys/microsoft.asc"
   when:
     - ansible_pkg_mgr in [ "yum", "dnf" ]
@@ -22,7 +22,7 @@
 - name: Add zypper repository
   community.general.zypper_repository:
     name: AzureCLI
-    repo: 'https://packages.microsoft.com/yumrepos/azure-cli'
+    repo: "https://packages.microsoft.com/yumrepos/azure-cli"
     state: present
   when:
     - ansible_pkg_mgr in [ "zypper" ]
