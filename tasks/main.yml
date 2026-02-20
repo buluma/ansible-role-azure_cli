@@ -22,7 +22,7 @@
 - name: Add zypper repository
   community.general.zypper_repository:
     name: AzureCLI
-    repo: 'https://packages.microsoft.com/yumrepos/azure-cli'
+    repo: "https://packages.microsoft.com/yumrepos/azure-cli"
     state: present
   when:
     - ansible_pkg_mgr in [ "zypper" ]
