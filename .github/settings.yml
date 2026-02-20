@@ -5,4 +5,4 @@
 repository:
   description: Install and configure azure_cli on your system.
   homepage: https://buluma.github.io/
-  topics: azurecli, ansible, molecule, tox, playbook
+  topics: azurecli, ansible, molecule, playbook
