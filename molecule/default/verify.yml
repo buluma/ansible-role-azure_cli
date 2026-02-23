@@ -1,13 +1,13 @@
 ---
-  - name: Verify
-    hosts: all
+- name: Verify
+  hosts: all
 
-    tasks:
-      - name: install bash
-        ansible.builtin.package:
-          name: bash
-          state: present
+  tasks:
+  - name: install bash
+    ansible.builtin.package:
+      name: bash
+      state: present
 
-      - name: try az
-        ansible.builtin.command:
-          cmd: az --version
+  - name: try az
+    ansible.builtin.command:
+      cmd: az --version

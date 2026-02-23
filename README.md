@@ -12,30 +12,30 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
-    become: yes
-    gather_facts: yes
+- name: Converge
+  hosts: all
+  become: yes
+  gather_facts: yes
 
-    roles:
-      - role: buluma.azure_cli
+  roles:
+  - role: buluma.azure_cli
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-azure_cli/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    become: yes
-    gather_facts: no
+- name: Prepare
+  hosts: all
+  become: yes
+  gather_facts: no
 
-    roles:
-      - role: buluma.bootstrap
-      - role: buluma.epel
-      - role: buluma.buildtools
-      - role: buluma.python_pip
-      - role: buluma.microsoft_repository_keys
+  roles:
+  - role: buluma.bootstrap
+  - role: buluma.epel
+  - role: buluma.buildtools
+  - role: buluma.python_pip
+  - role: buluma.microsoft_repository_keys
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
