@@ -5,8 +5,8 @@
   gather_facts: no
 
   roles:
-  - role: buluma.bootstrap
-  - role: buluma.epel
-  - role: buluma.buildtools
-  - role: buluma.python_pip
-  - role: buluma.microsoft_repository_keys
+    - role: buluma.bootstrap
+    - role: buluma.epel
+    - role: buluma.buildtools
+    - role: buluma.python_pip
+    - role: buluma.microsoft_repository_keys

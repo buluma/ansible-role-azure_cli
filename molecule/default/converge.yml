@@ -5,4 +5,4 @@
   gather_facts: yes
 
   roles:
-  - role: buluma.azure_cli
+    - role: buluma.azure_cli
