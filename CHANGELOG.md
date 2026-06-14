@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-azure_cli/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-azure_cli/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-azure_cli/compare/0.1.2...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-azure_cli/compare/0.1.2...26.6.0)
 
 **Implemented enhancements:**
 
