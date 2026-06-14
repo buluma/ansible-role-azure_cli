@@ -1,6 +1,7 @@
 ---
 - name: Verify
   hosts: all
+  become: true
 
   tasks:
     - name: install bash
@@ -10,5 +11,5 @@
 
     - name: try az
       ansible.builtin.command:
-      changed_when: false
         cmd: az --version
+      changed_when: false
