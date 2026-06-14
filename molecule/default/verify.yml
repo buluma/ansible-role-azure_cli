@@ -10,4 +10,5 @@
 
     - name: try az
       ansible.builtin.command:
+      changed_when: false
         cmd: az --version
