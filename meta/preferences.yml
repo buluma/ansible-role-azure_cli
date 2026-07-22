@@ -4,7 +4,10 @@
 platforms:
   - name: EL
     versions:
-      - "10"
+      # Excludes 10: Microsoft's azure-cli RPM bundles a venv that ends up
+      # running EL10's system Python 3.12+, which dropped distutils from
+      # stdlib; azure-cli's own code still imports it, so `az --version`
+      # crashes. Bug in Microsoft's package, not this role.
       - "9"
   - name: Debian
     versions:
